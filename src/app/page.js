@@ -19,7 +19,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-3xl font-bold text-gray-800 mb-2">Vote jadox</h1>
-          <p className="text-gray-600">Ici des jugement son prononcé</p>
+          <p className="text-gray-600">Le projet est open-source ca ce passe <a href="https://github.com/linuxcommandsexplain/jadox-vote">ici</a></p>
         </div>
         <VoteComponent questions={questions} />
       </div>
